@@ -1,0 +1,132 @@
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td, tr {
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
+
+
+.h3Tab {
+    background-color: #009b77;
+    color: white;
+    padding: 8px;
+}
+map area { z-index:100;}
+map area:hover { cursor:pointer }
+
+
+
+#blocco1,#blocco2,#blocco3,#blocco4,#blocco5,#blocco6,#blocco7,#blocco8,#blocco9,#blocco10,#blocco11,#blocco12,#blocco13{
+  background-color: #f2f2f2;
+  display:none;
+  width: 526px;
+  border-radius: 15px;
+}
+
+.button {
+  border: none;
+  color: black;
+  background-color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  font-family: 'Alice';
+  border: 2px solid #009b77;
+  border-radius: 15px;
+}
+.button:hover {
+  background-color: #009b77;
+  color: white;
+}
+#bottone{
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Alice';
+  font-size: 22px;
+}
+#Cartolina172:target{
+  background-color: #ddd;
+  color: black;
+}
+#Cartolina194:target{
+  background-color: #ddd;
+  color: black;
+}
+#Cartolina221:target{
+  background-color: #ddd;
+  color: black;
+}
+
+/* Style the header */
+.header {
+  background-color: #f2f2f2;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #009b77;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 41%;
+  padding: 15px;
+}
+.column2 {
+  
+  width: 100%;
+  padding: 15px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width:1280px) {
+  .column {
+    width: 100%;
+  }
+ 
+}

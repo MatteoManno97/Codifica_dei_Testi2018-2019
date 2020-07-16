@@ -1,0 +1,403 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI SYSTEM "dtd/PostcardProject2.dtd">
+
+<?xml-stylesheet type="text/xsl" href="Cartoline.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" n="3">
+ <teiHeader xml:lang="Italy">
+        <fileDesc>
+            <titleStmt>
+                
+                <title>Cartolina inviata da Giuseppe ad Antonietta Turtura; Ravenna, 12-05-1916</title>
+                <!-- TRASCRITTORE nome e cognome-->
+                <respStmt>
+                    <resp>Transcrizione a cura di</resp>
+                    <name xml:id="ROB">Roberto Olinto Barsotti</name>
+                    <name xml:id="MM">Matteo Mannini</name> 
+                </respStmt>
+                
+                <!-- ENTE DI APPARTENENZA -->
+                <respStmt>
+                    <resp>Ente di Appartenenza</resp>
+                    <name type="comune" xml:id="SP">Comune della Spezia</name>
+                </respStmt>
+                
+            </titleStmt>
+
+            <editionStmt>
+                <edition>Studenti di Codifica dei Testi, Corso di Laurea Triennale di Informatica Umanistica, Università di Pisa
+                    <!-- COMPILAZIONE -->
+                    <date when="2018" >2018</date>
+                </edition>
+                
+                <!-- NOME COMPILATORE -->
+                <respStmt>
+                    <resp>Encoding by</resp>
+                    <name xml:id="TC1">Tommaso Castagneto</name>
+                </respStmt>
+                
+                <!-- REFERENTE SCIENTIFICO -->
+                <respStmt>
+                   
+                    <resp>Compilatore</resp>
+                    <name xml:id="TC2">Tommaso Castagneto</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Responsabile scientifico</resp>
+                    <name xml:id="GP">Giacomo Paolicchi</name>
+                    <name xml:id="ES">Enrica Salvatori</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Funzionario responsabile</resp>
+                    <name xml:id="ER">E. Ratti</name>
+                </respStmt>
+            </editionStmt>
+            
+            <publicationStmt>
+                <publisher>Unipi</publisher>
+                <pubPlace>Pisa</pubPlace>
+                <availability>
+                    <p>Available under licence only</p>
+                </availability>
+                <date when="2019">2019</date>
+                <distributor>LabCD</distributor>
+                <address>
+                    <addrLine>Laboratorio di Cultura Digitale - Università di Pisa</addrLine>
+                    <addrLine>Pisa</addrLine>
+                </address>
+            </publicationStmt>
+            
+            <!-- NOTE NB: mettere qui tutto ciò che non rientra nella codifica -->
+            <notesStmt>
+                <note>Sul fronte troviamo "Salon de Paris P.Cocharne-Moreau" e il titolo dell'opera con varie traduzioni</note>
+            </notesStmt>
+            
+            <sourceDesc>
+                <bibl>
+                    <!-- TITOLO Quello che si ricava dalla cartolina; Se un documento composto da immagini 
+                        non presenta un titolo o altri elementi considerabili come titolo, si formula un titolo sintetico 
+                        registrandolo entro parentesi quadre [Venere al bagno] ma indicando dentro la codifica come qui sotto esemplificato-->
+                    
+                    <title>Libre echange</title>
+                    <author xml:id="PCM">P. Chocarne-Moreau </author>
+                    <!-- PRODUZIONE Chi ha prodotto / pubblicato la cartolina. Se non presente togliere il tag  -->
+                    <publisher ref="#SDP">Salon de Paris</publisher>
+                    <!-- LUOGO -->
+                    <pubPlace>Parigi</pubPlace>
+                    <!-- CRONOLOGIA, attenzione si riferisce solo alla data di stampa -->
+                    <date notAfter="1916-05-12">Pubblicazione mancante</date>
+                </bibl>
+                <msDesc>
+                    <!-- COLLOCAZIONE SPECIFICA -->
+                    <!-- CODICE IDENTIFICATIVO -->
+                    <msIdentifier>
+                        <country type="nazione">Italia</country>
+                        <settlement type="città">La Spezia (SP)</settlement>
+                        <!-- COLLOCAZIONE SPECIFICA -->
+                        <repository>Museo Civico Etnografico "Giovanni Podenzana", sezione dei cimeli garibaldini e della Prima Guerrra Mondiale</repository>
+                        <!-- CODICE IDENTIFICATIVO -->
+                        <idno>7694_221_001/002</idno>
+                    </msIdentifier>
+                    
+                    <!-- Informazioni sul contenuto della cartolina -->
+                    <!-- DESCRIZIONE -->
+                    <msContents>
+                        <summary>Cartolina Artistica</summary>
+                        <textLang>Italiano</textLang>
+                        <msItem n="f" facs="#fronteIII">
+                            <author ref="#PCM">P. Chocarne-Moreau</author>
+                            <title>Libre echange</title>
+                        </msItem>
+                        <msItem n="r" facs="#retroIII">
+                            <author><persName ref="#G">Giuseppe</persName></author>
+                            <title>Cartolina inviata da Giuseppe ad Antonietta Turtura; Ravenna, 12-05-1916</title>
+                        </msItem>
+                    </msContents>
+                    
+                    
+                    
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType>Cartolina</objectType>
+                                    <!-- MATERIALI -->
+                                    <material>Carta</material>
+                                    <!-- DIMENSIONE -->
+                                    <dimensions unit="cm">
+                                        <height>9</height>
+                                        <width>14</width>
+                                    </dimensions>
+                                    <stamp>Francobollo del Regno d'Italia con sopra un timbro, situato in alto del retro, in buono stato di conservazione</stamp>
+                                </support>
+                                
+                                <!-- CONSERVAZIONE 
+                                buono = non occorrono interventi di restauro;
+discreto = perfettamente leggibile in tutte le componenti ma con rischi di deterioramento per usura;
+mediocre = perfettamente leggibile, ma mancano alcune sue parti;
+cattivo = intaccato da parassiti o deteriorato da cattivi interventi passati o mancanti di parti rilevanti, necessita di restauro-->
+                                <condition>Buono</condition>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+            
+                    
+                </msDesc>
+                
+                <!-- NOMI -->
+                
+                <listPerson>
+                    
+                   
+                    <person xml:id="G">
+                        <persName>
+                            <forename>Giuseppe</forename>
+                            
+                        </persName>
+                        <sex>M</sex>
+                        
+                        <note>Non si hanno ulteriori informazioni sul mittente della cartolina</note>
+                    </person>
+                    <person xml:id="AT">
+                        <persName>
+                            <forename>Antonietta</forename>
+                            <surname>Turtura</surname>
+                        </persName>
+                        <sex>F</sex>
+                        <note>Non si hanno ulteriori informazioni sulla destinataria della cartolina</note>
+                    </person>
+                    <!-- nel caso potremmo aggiungere il pittore -->
+                </listPerson>
+                
+                <listPlace>
+                    <place xml:id="RV">
+                        <placeName>Ravenna</placeName>
+                        <settlement type="località">città</settlement>
+                        <district type="comune">Ravenna</district>
+                        <district type="provincia">RV</district>
+                        <region>Emilia-Romagna</region>
+                        <country key="N">IT</country>
+                        <note>Luogo di destinazione</note>
+                    </place>
+                    <place xml:id="ME">
+                        <placeName>Messina</placeName>
+                        <settlement type="località">città</settlement>
+                        <district type="comune">Messina</district>
+                        <district type="provincia">ME</district>
+                        <region>Sicilia</region>
+                        <country key="N">IT</country>
+                        <note>Luogo di origine della spedizione</note>
+                    </place>
+                     <place xml:id="PA">
+                        <placeName>Parigi</placeName>
+                        <settlement type="località">città</settlement>
+                        <district type="comune">Parigi</district>
+                        <district type="dipartimento">75</district>
+                        <region>Île-de-France</region>
+                        <country key="N">FR</country>
+                        <note>Luogo di produzione della cartolina</note>
+                    </place>
+                     <place xml:id="FE">
+                        <placeName>Ferrara</placeName>
+                        <settlement type="località">città</settlement>
+                        <district type="comune">Ferrara</district>
+                        <district type="provincia">FE</district>
+                        <region>Emilia-Romagna</region>
+                        <country key="N">FR</country>
+                        <note>Città timbratura della cartolina</note>
+                    </place>
+                </listPlace>
+                
+                <listOrg>
+                    <org xml:id="SDP">
+                        <orgName type="Produttore">Salon de Paris</orgName>
+                        <desc>Produttore della cartolina</desc>
+                    </org>
+                    <org xml:id="PI">
+                        <orgName type="Poste">Poste Italiane</orgName>
+                        <desc>Società che si occupa del servizio postale italiano</desc>
+                    </org>
+                </listOrg>
+                
+                
+            </sourceDesc>
+        </fileDesc>
+        
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#G"/>
+                    <placeName ref="#ME">Messina</placeName>
+                    <!-- DATA data di invio da timbro (postage) o da manoscritto (writing) -->
+            
+                    <date type="writing" when="1916-05-12">12/05/1916</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#AT">Antonietta Turtura</persName>
+                    <placeName ref="#RV">Ravenna</placeName>
+                </correspAction>
+              
+            </correspDesc>
+            
+            <textClass>
+                <keywords>
+                    <!-- soggettario -->
+                    <!-- tipologia -->
+                    <!-- descrizione -->
+                    <term>Cartolina </term>
+                    <term>Cartolina Artistica </term>
+                    <term>Alcuni chirichetti oziano in sagrestia</term>
+                </keywords>
+            </textClass>
+            
+            <langUsage>
+                <language ident="it-IT">italiano</language>
+            </langUsage>
+        </profileDesc>
+        
+    </teiHeader>
+
+    <facsimile>
+
+        <surface n="f" corresp="#fronte221">    <!-- Fronte -->
+            <graphic url='img/7694-221F.jpg' width='526px' height='828px' xml:id="fronteIII" />
+            <zone points = ' 525,755, 476,755, 475,738, 499,733, 525,738 ' n="1" />   <!--firma autore-->
+            <zone points = ' 505,783, 39,785, 39,769, 269,765, 505,768 ' n="2" />     <!--Salon de Paris/ P.Chocarne Moreau/ scritta russa -->
+            <zone points = ' 504,807, 49,808, 49,794, 267,790, 504,794 ' n="3" />     <!--Da Libre Echange alla scritta russa-->
+        </surface>
+
+        <surface n="r" corresp="#retro221">     <!-- Retro -->
+            <graphic url='img/7694-221R.jpg' width='828px' height='526px' xml:id="retroIII" />
+            <!--Francobollo-->
+            <zone points = ' 827,160, 700,159, 700,9, 765,4, 827,10 ' n="4"/>
+            <!--Timbro-->
+            <zone points = ' 695,12, 655,29, 630,63, 622,112, 638,151, 673,180, 708,187, 744,181, 773,163, 793,133, 799,102, 796,74, 784,47, 763,27, 737,15 ' n="5" />
+            <!--Data-->
+            <zone points = ' 388,125, 38,135,38,91, 217,74, 389,83 '  n="6" /> 
+            <!--Messaggio-->
+            <zone points = ' 47,204, 47,336, 242,264, 386,166, 388,133 ' n="7" />
+            <!--Firma-->
+            <zone points = ' 148,312, 392,217, 392,319, 218,385 ' n="8" />
+            <!--Scritta in verticale-->
+            <zone points = ' 34,155, 36,467, 19,468, 15,290, 18,155 ' n="9"/>
+            <!--Simbolo-->
+            <zone points = ' 144,499, 83,503, 80,429, 109,422, 143,427 ' n="10" />
+            <!--Indirizzo-->
+            <zone points = ' 823,188, 594,189, 592,118, 397,119, 400,245, 509,427, 824,428 ' n="11" />
+        </surface>
+    </facsimile>
+
+
+
+
+
+
+
+
+
+
+    <!-- DEFINIZIONE -->
+    <text type="cartolina" xml:id="xx">
+        <front>
+            <div type="stampe">
+                <ab xml:id="scritta_r1"><s facs="#c221_r6" xml:id="scritta1" style="text-orientation: sideways-left"> Made in France. - Paris. Selectacolor N° 631 </s></ab>
+                <ab xml:id="scritta_r2"><s facs="#c221_r7" xml:id="scritta2"> <unclear reason="inaudible">S.P.A.</unclear></s>
+                    <note>Il simbolo non è chiaro, per assenza di riferimenti</note>
+                </ab>
+            </div>
+
+            <div type="postmark">
+                <p>
+                    <stamp type="postmark">
+                        <mentioned facs="#c221_r2" xml:id="timbro">
+                            <placeName ref="#FE">Ferrara</placeName>
+                            <date when="1916-05-12">12.5.16</date><s xml:id="infoData">.13</s>
+                            <s xml:id="S">Arrivi e Partenze</s>
+                        </mentioned>
+                        <note>Timbro eseguito a Ferrara il giorno 12/05/1916 e nella parte finale è presente .13 </note>
+                    </stamp>
+                    <stamp type="postage">
+                        <mentioned facs="#c221_r1" xml:id="francobollo">
+                            <orgName ref="#PI">Poste Italiane</orgName>
+                            <s><num type="cardinal">5</num> centesimi <num type="cardinal">5</num></s>
+                        </mentioned>
+                        <note>Francobollo da 5 centesimi delle Poste Italiane</note>
+                  </stamp>
+                </p>
+            </div>
+        </front>
+
+        <!-- TRASCRIZIONE -->
+        <body>
+            <div type="fronte" xml:id="fronte221">
+                <figure>
+                    <figDesc>Dei ragazzi si divertono all'interno di una sagrestia, bevendo e mangiando del pane. Si può notare, tra i presenti, alcuni chirichetti e un cuoco/pasticcere</figDesc>
+                    <head>Libre echange di P.Cocharne-Moreau </head>
+                </figure>
+
+                <ab n="1" facs= "#c221_f1">
+                    <lb xml:id="fronte_lb1"/>
+                    <persName ref="#PCM">Chocarne Moreau</persName>
+                </ab>
+                <ab n="2" facs="#c221_f2">
+                    <cb xml:id="fronte_cb1"/>
+                    <orgName ref="#SDP" xml:lang="fr">SALON DE PARIS</orgName>
+                    <cb xml:id="fronte_cb2"/>
+                    <persName ref="#PCM">P.CHOCARNE MOREAU</persName>
+                    <cb xml:id="fronte_cb3"/>
+                    <foreign xml:lang="ru">Парижск<unclear reason="inaudible">ий</unclear> салон</foreign>
+                </ab>
+
+                <ab n="3" facs="#c221_f3">
+                    <cb xml:id="fronte_cb4"/>
+                    <foreign xml:lang="fr"> Libre echange</foreign>
+                    <cb xml:id="fronte_cb5"/>
+                    <foreign xml:lang="en"> Free- Tra<unclear reason="inaudible">de</unclear> </foreign>
+                    <cb xml:id="fronte_cb6"/>
+                    <foreign xml:lang="de"> F<unclear reason="inaudible">reie</unclear> Gegengabe</foreign>
+                    <cb xml:id="fronte_cb7"/>
+                    <foreign xml:lang="pl"> W<unclear reason="inaudible">ol</unclear>na Zamiana </foreign>
+                    <cb xml:id="fronte_cb8"/>
+                    <foreign xml:lang="ru"> обмен</foreign>
+                </ab>
+            </div>
+            <div type="retro" xml:id="retro221">
+                <div type="opener">
+                    <ab type="parag" facs="#c221_r3">
+                        <placeName ref="#ME">Messina</placeName>
+                        <date xml:id="data" when="1916-05-12">12-5-916</date>
+                    </ab>
+                </div>
+                <div type="letter-body">
+                    <ab type="parag" n="par1" facs="#c221_r4">
+                        <lb xml:id="retro_lb1"/>
+                        Saluti affettuosi
+                        <lb xml:id="retro_lb2"/>
+                        per tutti
+                    </ab>
+                </div>
+                <div type="closer">
+                    <lb xml:id="retro_lb3" facs="#c221_r5"/>
+                    <signed><persName ref="#G">Giuseppe</persName></signed>
+                </div>
+
+
+                <div type="destination">
+                   <p>
+                        <address facs="#c221_r8">
+                            <addrLine xml:id="retro_lb4">Signorina</addrLine>
+                            <addrLine xml:id="retro_lb5"><persName ref="#AT">Antonietta Turtura </persName></addrLine>
+                            <addrLine xml:id="retro_lb6">Via Girolamo Rossi 58</addrLine>
+                            <addrLine xml:id="retro_lb7"> <placeName ref="#RV">Ravenna</placeName></addrLine>
+                            
+                        </address>
+                    </p>
+                </div>
+            </div>
+        </body>
+        <back>
+            <div type="note">
+                <p>Non si hanno informazioni sul mittente della cartolina,<persName ref="#G">Giuseppe</persName>.</p>
+            </div>
+        </back> 
+    </text>
+</TEI>

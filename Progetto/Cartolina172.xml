@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI SYSTEM "dtd/PostcardProject2.dtd">
+
+<?xml-stylesheet type="text/xsl" href="Cartoline.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" n="1">
+ <teiHeader xml:lang="Italy">
+        <fileDesc>
+            <titleStmt>
+                
+                <title>Cartolina inviata da Giovannino a Olivia Turtura; Modema, 05-06-1917</title>
+                <!-- TRASCRITTORE nome e cognome-->
+                <respStmt>
+                    <resp>Transcrizione a cura di</resp>
+                    <name xml:id="ROB">Roberto Olinto Barsotti</name>
+                    <name xml:id="MM">Matteo Mannini</name> 
+                </respStmt>
+                
+                <!-- ENTE DI APPARTENENZA -->
+                <respStmt>
+                    <resp>Ente di Appartenenza</resp>
+                    <name type="comune" xml:id="SP">Comune della Spezia</name>
+                </respStmt>
+                
+            </titleStmt>
+
+            <editionStmt>
+                <edition>Studenti di Codifica dei Testi, Corso di Laurea Triennale di Informatica Umanistica, Università di Pisa
+                    <!-- COMPILAZIONE -->
+                    <date when="2018" >2018</date>
+                </edition>
+                
+                <!-- NOME COMPILATORE -->
+                <respStmt>
+                    <resp>Encoding by</resp>
+                    <name xml:id="TC1">Tommaso Castagneto</name>
+                </respStmt>
+                
+                <!-- REFERENTE SCIENTIFICO -->
+                <respStmt>
+                   
+                    <resp>Compilatore</resp>
+                    <name xml:id="TC2">Tommaso Castagneto</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Responsabile scientifico</resp>
+                    <name xml:id="GP">Giacomo Paolicchi</name>
+                    <name xml:id="ES">Enrica Salvatori</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Funzionario responsabile</resp>
+                    <name xml:id="ER">E. Ratti</name>
+                </respStmt>
+            </editionStmt>
+            
+            <publicationStmt>
+                <publisher>Unipi</publisher>
+                <pubPlace>Pisa</pubPlace>
+                <availability>
+                    <p>Available under licence only</p>
+                </availability>
+                <date when="2019">2019</date>
+                <distributor>LabCD</distributor>
+                <address>
+                    <addrLine>Laboratorio di Cultura Digitale - Università di Pisa</addrLine>
+                    <addrLine>Pisa</addrLine>
+                </address>
+            </publicationStmt>
+            
+            <!-- NOTE NB: mettere qui tutto ciò che non rientra nella codifica -->
+            <notesStmt>
+                <note>Sul fronte troviamo il titolo dell'opera e la casa editrici. Nella figura, in basso, troviamo la firma dell'autore</note>
+            </notesStmt>
+            
+            <sourceDesc>
+                <bibl>
+                    <!-- TITOLO Quello che si ricava dalla cartolina; Se un documento composto da immagini 
+                        non presenta un titolo o altri elementi considerabili come titolo, si formula un titolo sintetico 
+                        registrandolo entro parentesi quadre [Venere al bagno] ma indicando dentro la codifica come qui sotto esemplificato-->
+                    
+                    <title>As Promised</title>
+                    <author xml:id="FEC">F. Earl Christy </author>
+                    <!-- PRODUZIONE Chi ha prodotto / pubblicato la cartolina. Se non presente togliere il tag  -->
+                    <publisher ref="#RN">© REINTHAL &amp; NEWMAN, PUBS. N.Y.</publisher>
+                    <!-- LUOGO -->
+                    <pubPlace ref="#NY">New York</pubPlace>
+                    <!-- CRONOLOGIA, attenzione si riferisce solo alla data di stampa -->
+                    <date notAfter="1917-06-05">Pubblicazione mancante</date>
+                </bibl>
+                <msDesc>
+                    <!-- COLLOCAZIONE SPECIFICA -->
+                    <!-- CODICE IDENTIFICATIVO -->
+                    <msIdentifier>
+                        <country type="nazione">Italia</country>
+                        <settlement type="città">La Spezia (SP)</settlement>
+                        <!-- COLLOCAZIONE SPECIFICA -->
+                        <repository>Museo Civico Etnografico "Giovanni Podenzana", sezione dei cimeli garibaldini e della Prima Guerrra Mondiale</repository>
+                        <!-- CODICE IDENTIFICATIVO -->
+                        <idno>7694_172_001/002</idno>
+                    </msIdentifier>
+                    
+                    <!-- Informazioni sul contenuto della cartolina -->
+                    <!-- DESCRIZIONE -->
+                    <msContents>
+                        <summary>Cartolina Artistica</summary>
+                        <textLang>Italiano</textLang>
+                        <msItem n="f" facs="#fronteI">
+                            <author ref="#FEC">F. Earl Christy </author>
+                            <title>As Promised</title>
+                        </msItem>
+                        <msItem n="r" facs="#retroI">
+                            <author><persName ref="#GIO">Giovanni</persName></author>
+                            <title>Cartolina inviata da Giovanni a Olivia Turtura; Modena, 05-06-1917</title>
+                        </msItem>
+                    </msContents>
+                    
+                    
+                    
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType>Cartolina</objectType>
+                                    <!-- MATERIALI -->
+                                    <material>Carta</material>
+                                    <!-- DIMENSIONE -->
+                                    <dimensions unit="cm">
+                                        <height>9</height>
+                                        <width>14</width>
+                                    </dimensions>
+                                    <stamp>Due francobolli del Regno d'Italia con sopra due timbri, situato in alto del retro, in buono stato di conservazione</stamp>
+                                </support>
+                                
+                                <!-- CONSERVAZIONE 
+                                buono = non occorrono interventi di restauro;
+discreto = perfettamente leggibile in tutte le componenti ma con rischi di deterioramento per usura;
+mediocre = perfettamente leggibile, ma mancano alcune sue parti;
+cattivo = intaccato da parassiti o deteriorato da cattivi interventi passati o mancanti di parti rilevanti, necessita di restauro-->
+                                <condition>Buono</condition>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+            
+                    
+                </msDesc>
+                
+                <!-- NOMI -->
+                
+                <listPerson>
+                    
+                   
+                    <person xml:id="GIO">
+                        <persName>
+                            <forename>Giovanni</forename>
+                            
+                        </persName>
+                        <sex>M</sex>
+                        
+                        <note>Non si hanno ulteriori informazioni sul mittente della cartolina</note>
+                    </person>
+                    <person xml:id="OT">
+                        <persName>
+                            <forename>Oliva</forename>
+                            <surname>Turtura</surname>
+                        </persName>
+                        <sex>F</sex>
+                        <note>Non si hanno ulteriori informazioni sulla destinataria della cartolina</note>
+                    </person>
+                    <!-- nel caso potremmo aggiungere il pittore -->
+                </listPerson>
+                
+                <listPlace>
+                    <place xml:id="RV">
+                        <placeName>Ravenna</placeName>
+                        <settlement type="località">città</settlement>
+                        <district type="comune">Ravenna</district>
+                        <district type="provincia">RV</district>
+                        <region>Emilia-Romagna</region>
+                        <country key="N">IT</country>
+                        <note>Luogo di destinazione</note>
+                    </place>
+                    <place xml:id="MO">
+                        <placeName>Modena</placeName>
+                        <settlement type="località">città</settlement>
+                        <district type="comune">Modena</district>
+                        <district type="provincia">MO</district>
+                        <region>Emilia-Romagna</region>
+                        <country key="N">IT</country>
+                        <note>Luogo di origine della spedizione</note>
+                    </place>
+                     <place xml:id="NY">
+                        <placeName>New York</placeName>
+                        <settlement type="località">città</settlement>
+                        <district type="comune">New York</district>
+                        <region type="stato federale">New York</region>
+                        <country key="N">USA</country>
+                        <note>Luogo di produzione della cartolina</note>
+                    </place>
+                 
+                </listPlace>
+                
+                <listOrg>
+                    <org xml:id="RN">
+                        <orgName type="Editore">© REINTHAL &amp; NEWMAN, PUBS. N.Y.</orgName>
+                        <desc>Editore della cartolina</desc>
+                    </org>
+                    <org xml:id="PI">
+                        <orgName type="Poste">Poste Italiane</orgName>
+                        <desc>Società che si occupa del servizio postale italiano</desc>
+                    </org>
+                    <org xml:id="FS">
+                        <orgName type="Ferrovie">Ferrovie dello stato italiano</orgName>
+                        <desc>Società che si occupa del servizio ferroviario italiano</desc>
+                    </org>
+                </listOrg>
+                
+                
+            </sourceDesc>
+        </fileDesc>
+        
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#GIO"/>
+                    <placeName ref="#MO">Modena</placeName>
+                    <!-- DATA data di invio da timbro (postage) o da manoscritto (writing) -->
+            
+                    <date type="writing" when="1917-06-06">06/06/1917</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#OT">Oliva Turtura</persName>
+                    <placeName ref="#RV">Ravenna</placeName>
+                </correspAction>
+              
+            </correspDesc>
+            
+            <textClass>
+                <keywords>
+                    <!-- soggettario -->
+                    <!-- tipologia -->
+                    <!-- descrizione -->
+                    <term>Cartolina </term>
+                    <term>Cartolina Artistica </term>
+                    <term>Donna in nero con cappello con fiocco blu</term>
+                </keywords>
+            </textClass>
+            
+            <langUsage>
+                <language ident="it-IT">italiano</language>
+            </langUsage>
+        </profileDesc>
+        
+    </teiHeader>
+
+    <facsimile>
+
+        <surface n="f" corresp="#fronte172">    <!-- Fronte -->
+            <graphic url='img/7694-172F.jpg' width='526px' height='824px' xml:id="fronteI" />
+            <zone points = ' 427,628, 367,638, 311,637, 311,621, 426,614 '  n="1" />   <!--Firma autore-->
+            <zone points = ' 508,718, 323,719, 323,701, 412,694, 508,704 '  n="2" />     <!--Editore -->
+            <zone points = ' 300,798, 202,802, 202,788, 255,780, 299,786 ' n="3" />     <!--Titolo opera-->
+        </surface>
+
+        <surface n="r" corresp="#retro172">     <!-- Retro -->
+            <graphic url='img/7694-172R.jpg' width='526px' height='820px' xml:id="retroI" />
+            <!--Francobolli-->
+            <zone points = ' 14,55, 158,57, 159,301, 86,308, 7,301 '  n="4"/>
+            <!--Timbri-->
+            <zone points = ' 108,9, 163,22, 200,62, 211,97, 204,140, 199,180, 191,208, 172,232, 144,249, 115,256, 80,249, 44,227, 26,198, 15,164, 20,134, 35,110, 52,93, 82,79, 102,46 ' n="5" />
+            <!--Timbro2-->
+            <zone points = ' 185,305, 283,412, 164,518, 66,405, 112,346 ' n="6" />
+            <!--Data-->
+            <zone points = ' 124,484, 123,445, 443,444, 444,484, 339,484 '  n="7" /> 
+            <!--Messaggio-->
+            <zone points = ' 6,498, 86,458, 116,480, 255,478, 328,487, 404,483, 524,484, 525,771, 391,765, 226,766, 147,774, 173,787, 236,795, 152,807, 11,818, 8,794, 37,778, 99,780, 94,733, 72,714, 40,719, 19,729, 3,725 '  n="8" />
+            <!--Firma-->
+            <zone points = ' 514,812, 146,813, 236,792, 321,767, 407,782, 489,791 ' n="9" />
+            <!--Scritta in verticale-->
+            <zone points = ' 74,626, 56,675, 39,676, 40,448, 72,514 '  n="10"/>
+            <!--Scritta in orizzontale-->
+            <zone points = ' 496,787, 181,790, 181,768, 420,763, 496,769 '  n="11"/>
+            <!--Simbolo-->
+            <zone points = ' 59,716, 78,721, 86,735, 88,752, 79,766, 65,773, 47,772, 35,762, 30,740, 36,726, 46,716 ' n="12" />
+            <!--Indirizzo-->
+            <zone points = ' 478,419, 361,445, 274,446, 262,458, 186,457, 149,397, 192,343, 193,256, 182,228, 202,203, 202,165, 279,46, 478,42 ' n="13" />
+        </surface>
+    </facsimile>
+
+
+
+
+
+
+
+
+
+
+    <!-- DEFINIZIONE -->
+    <text type="cartolina" xml:id="xx">
+        <front>
+            <div type="stampe">
+                <ab xml:id="scritta_r1"><s facs="#c172_r7" xml:id="scritta1" > THIS SPACE MAY <unclear reason="illegible">B</unclear><unclear reason="inaudible">E</unclear> USED FOR CORRESPONDENCE </s></ab>
+                <ab xml:id="scritta_r2"><s facs="#c172_r8" xml:id="scritta2" style="text-orientation: sideways-left"> No. 625 <cb xml:id="scritta_r8"/> Universal Copyright </s> </ab>
+                <ab xml:id="scritta_r3"><s facs="#c172_r9" xml:id="scritta3">RN</s>
+                    <note>Il simbolo probabilmente si riferisce all'editore della cartolina</note>
+                
+                </ab>   
+                    
+              
+            </div>
+
+            <div type="postmark">
+                <p>
+                    <stamp type="postmark">
+                        <mentioned facs="#c172_r2" xml:id="timbro">
+                            <orgName ref="#FS">Ferrovie</orgName>
+                            <placeName>Luogo di timbratura assente</placeName>
+                            <date when="1916-05-12">6.6.17</date><s xml:id="infoData"><unclear reason="inaudible">.78</unclear></s>
+                            <s xml:id="S">Ferrovia</s>
+                        </mentioned>
+                        <note>Timbro eseguito dalle Ferrovie dello stato probabilmente il giorno 05/06/1917 e nella parte finale si pensa sia presente .78, ma non è ben comprensibile </note>
+                    </stamp>
+                    <stamp type="postmark">
+                        <mentioned facs="#c172_r3" xml:id="timbro2">
+                            <gap reason="illegible">
+                                <desc>La parte interna del timbro non è comprensibile</desc>
+                            </gap>   
+                        </mentioned>
+                        
+                        
+                    </stamp>
+                    <stamp type="postage">
+                        <mentioned facs="#c172_r1" xml:id="francobollo">
+                            <orgName ref="#PI">Poste Italiane</orgName>
+                            <s><num type="cardinal">5</num> centesimi <num type="cardinal">5</num></s>
+                        </mentioned>
+                        <note>Francobolli da 5 centesimi delle Poste Italiane</note>
+                  </stamp>
+                </p>
+            </div>
+        </front>
+
+        <!-- TRASCRIZIONE -->
+        <body>
+            <div type="fronte" xml:id="fronte172">
+                <figure>
+                    <figDesc>Una giovane donna si dedica alla potatura dei fiori. Indossa un abito nero e un cappello con sopra un fiocco vistoso di colore blu</figDesc>
+                    <head>As Promised di F. Earl Christy </head>
+                </figure>
+
+                <ab n="1" facs= "#c172_f1">
+                    
+                    <persName ref="#FEC">F. Earl Christy</persName>
+                </ab>
+                <ab n="2" facs="#c172_f2">
+                    
+                    <orgName ref="#RN" xml:lang="en">© REINTHAL &amp; NEWMAN, PUBS. N.Y.</orgName>
+
+                </ab>
+
+                <ab n="3" facs="#c172_f3">
+                    
+                    <seg type="title" xml:lang="en">AS PROMISED</seg>
+                </ab>
+            </div>
+            
+            <div type="retro" xml:id="retro172">
+                <div type="opener">
+                    <ab type="parag" facs="#c172_r4">
+                        <placeName ref="#MO">Modena</placeName>, lì
+                        <date xml:id="data" when="1917-06-05">5/6-1917</date>
+                    </ab>
+                </div>
+                <div type="letter-body">
+                    <ab type="parag" n="par1" facs="#c172_r5">
+                        <lb xml:id="retro_lb1"/>
+                        Sono affranto..... solo.
+                        <lb xml:id="retro_lb2"/>
+                        Un senso di nostalgia mi assale
+                        <lb xml:id="retro_lb3"/>
+                        e mi dilania il cuore.
+                        <lb xml:id="retro_lb4"/>
+                        Perchè non con te, sempre?
+                        <lb xml:id="retro_lb5"/>
+                        La notte, il giorno così vuote
+                        <lb xml:id="retro_lb6"/>
+                        sono un peso mortale.....
+                        <lb xml:id="retro_lb7"/>
+                        Quando?...... La speranza si prende
+                        <lb xml:id="retro_lb8"/>
+                        giuco di me.
+                    </ab>
+                </div>
+                <div type="closer">
+                    <lb xml:id="retro_lb9" facs="#c172_r6"/>
+                    <signed><persName ref="#GIO"><addName type="epithet">Giovannino</addName></persName></signed>
+                </div>
+
+
+                <div type="destination">
+                   <p>
+                        <address facs="#c172_r10">
+                            <addrLine xml:id="retro_lb10">Gentil <am>Sig na</am></addrLine>
+                            <addrLine xml:id="retro_lb11"><persName ref="#OT">Oliva Turtura </persName></addrLine>
+                            <addrLine xml:id="retro_lb12">Via Girolamo Rossi 58</addrLine>
+                            <addrLine xml:id="retro_lb13"> <placeName ref="#RV">Ravenna</placeName></addrLine>
+                            
+                        </address>
+                    </p>
+                </div>
+            </div>
+        </body>
+        <back>
+            <div type="note">
+                <p>Non si hanno informazioni sul mittente della cartolina,<persName ref="#GIO">Giovanni</persName>.</p>
+            </div>
+        </back> 
+    </text>
+</TEI>
+

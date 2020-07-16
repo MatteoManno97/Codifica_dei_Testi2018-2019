@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI SYSTEM "dtd/PostcardProject2.dtd">
+
+<?xml-stylesheet type="text/xsl" href="Cartoline.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" n="2">
+ <teiHeader xml:lang="Italy">
+        <fileDesc>
+            <titleStmt>
+                
+                <title>Cartolina inviata da Giovannino a Olivia Turtura; Modema, 17-01-1918</title>
+                <!-- TRASCRITTORE nome e cognome-->
+                <respStmt>
+                    <resp>Transcrizione a cura di</resp>
+                    <name xml:id="ROB">Roberto Olinto Barsotti</name>
+                    <name xml:id="MM">Matteo Mannini</name> 
+                </respStmt>
+                
+                <!-- ENTE DI APPARTENENZA -->
+                <respStmt>
+                    <resp>Ente di Appartenenza</resp>
+                    <name type="comune" xml:id="SP">Comune della Spezia</name>
+                </respStmt>
+                
+            </titleStmt>
+
+            <editionStmt>
+                <edition>Studenti di Codifica dei Testi, Corso di Laurea Triennale di Informatica Umanistica, Università di Pisa
+                    <!-- COMPILAZIONE -->
+                    <date when="2018" >2018</date>
+                </edition>
+                
+                <!-- NOME COMPILATORE -->
+                <respStmt>
+                    <resp>Encoding by</resp>
+                    <name xml:id="TC1">Tommaso Castagneto</name>
+                </respStmt>
+                
+                <!-- REFERENTE SCIENTIFICO -->
+                <respStmt>
+                   
+                    <resp>Compilatore</resp>
+                    <name xml:id="TC2">Tommaso Castagneto</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Responsabile scientifico</resp>
+                    <name xml:id="GP">Giacomo Paolicchi</name>
+                    <name xml:id="ES">Enrica Salvatori</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Funzionario responsabile</resp>
+                    <name xml:id="ER">E. Ratti</name>
+                </respStmt>
+            </editionStmt>
+            
+            <publicationStmt>
+                <publisher>Unipi</publisher>
+                <pubPlace>Pisa</pubPlace>
+                <availability>
+                    <p>Available under licence only</p>
+                </availability>
+                <date when="2019">2019</date>
+                <distributor>LabCD</distributor>
+                <address>
+                    <addrLine>Laboratorio di Cultura Digitale - Università di Pisa</addrLine>
+                    <addrLine>Pisa</addrLine>
+                </address>
+            </publicationStmt>
+            
+            <!-- NOTE NB: mettere qui tutto ciò che non rientra nella codifica -->
+            <notesStmt>
+                <note>Sul fronte troviamo la riproduzione della Madonna del pozzo del Franciabigio</note>
+            </notesStmt>
+            
+            <sourceDesc>
+                <bibl>
+                    <!-- TITOLO Quello che si ricava dalla cartolina; Se un documento composto da immagini 
+                        non presenta un titolo o altri elementi considerabili come titolo, si formula un titolo sintetico 
+                        registrandolo entro parentesi quadre [Venere al bagno] ma indicando dentro la codifica come qui sotto esemplificato-->
+                    
+                    <title>Madonna del pozzo</title>
+                    <author ref="#F">Franciabigio </author>
+                    <!-- PRODUZIONE Chi ha prodotto / pubblicato la cartolina. Se non presente togliere il tag  -->
+                    <publisher ref="#ESF">E. Sborgi Florence</publisher>
+                    <!-- LUOGO -->
+                    <pubPlace ref="#FI">Firenze</pubPlace>
+                    <!-- CRONOLOGIA, attenzione si riferisce solo alla data di stampa -->
+                    <date notAfter="1918-01-17">Pubblicazione mancante</date>
+                </bibl>
+                <msDesc>
+                    <!-- COLLOCAZIONE SPECIFICA -->
+                    <!-- CODICE IDENTIFICATIVO -->
+                    <msIdentifier>
+                        <country type="nazione">Italia</country>
+                        <settlement type="città">La Spezia (SP)</settlement>
+                        <!-- COLLOCAZIONE SPECIFICA -->
+                        <repository>Museo Civico Etnografico "Giovanni Podenzana", sezione dei cimeli garibaldini e della Prima Guerrra Mondiale</repository>
+                        <!-- CODICE IDENTIFICATIVO -->
+                        <idno>7694_194_001/002</idno>
+                    </msIdentifier>
+                    
+                    <!-- Informazioni sul contenuto della cartolina -->
+                    <!-- DESCRIZIONE -->
+                    <msContents>
+                        <summary>Cartolina Artistica</summary>
+                        <textLang>Italiano</textLang>
+                        <msItem n="f" facs="#fronteII">
+                            <author ref="#F">Franciabigio </author>
+                            <title>Madonna del pozzo</title>
+                        </msItem>
+                        <msItem n="r" facs="#retroII">
+                            <author><persName ref="#GIO">Giovanni</persName></author>
+                            <title>Cartolina inviata da Giovanni a Olivia Turtura; Modena, 17-01-1918</title>
+                        </msItem>
+                    </msContents>
+                    
+                    
+                    
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType>Cartolina</objectType>
+                                    <!-- MATERIALI -->
+                                    <material>Carta</material>
+                                    <!-- DIMENSIONE -->
+                                    <dimensions unit="cm">
+                                        <height>9</height>
+                                        <width>14</width>
+                                    </dimensions>
+                                    <stamp><note>Francobollo assente</note></stamp>
+                                </support>
+                                
+                                <!-- CONSERVAZIONE 
+                                buono = non occorrono interventi di restauro;
+discreto = perfettamente leggibile in tutte le componenti ma con rischi di deterioramento per usura;
+mediocre = perfettamente leggibile, ma mancano alcune sue parti;
+cattivo = intaccato da parassiti o deteriorato da cattivi interventi passati o mancanti di parti rilevanti, necessita di restauro-->
+                                <condition>Buono</condition>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+            
+                    
+                </msDesc>
+                
+                <!-- NOMI -->
+                
+                <listPerson>
+                    
+                   
+                    <person xml:id="GIO">
+                        <persName>
+                            <forename>Giovanni</forename>
+                            
+                        </persName>
+                        <sex>M</sex>
+                        
+                        <note>Non si hanno ulteriori informazioni sul mittente della cartolina</note>
+                    </person>
+                    <person xml:id="OT">
+                        <persName>
+                            <forename>Oliva</forename>
+                            <surname>Turtura</surname>
+                        </persName>
+                        <sex>F</sex>
+                        <note>Non si hanno ulteriori informazioni sulla destinataria della cartolina</note>
+                    </person>
+                    <person xml:id="F">
+                        <persName>
+                            <forename>Francesco</forename>
+                            <surname>di Cristofano</surname>
+                            <addName type="epithet">Franciabigio</addName>
+                        </persName>
+                        <sex>M</sex>
+                        <note>Link:http://www.treccani.it/enciclopedia/il-franciabigio_%28Enciclopedia-Italiana%29/</note>
+                    </person>
+                    
+                </listPerson>
+                
+                <listPlace>
+                  
+                    <place xml:id="MO">
+                        <placeName>Modena</placeName>
+                        <settlement type="località">città</settlement>
+                        <district type="comune">Modena</district>
+                        <district type="provincia">MO</district>
+                        <region>Emilia-Romagna</region>
+                        <country key="N">IT</country>
+                        <note>Luogo di origine della spedizione</note>
+                    </place>
+                     <place xml:id="FI">
+                        <placeName>Firenze</placeName>
+                        <settlement type="località">città</settlement>
+                         <district type="comune">Firenze</district>
+                         <district type="provincia">FI</district>
+                         <region>Toscana</region>
+                         <country key="N">IT</country>
+                         <note>Luogo di origine dell'editore</note>
+                     </place>
+                 
+                </listPlace>
+                
+                <listOrg>
+                    <org xml:id="ESF">
+                        <orgName type="Editore">E. Sborgi Florence</orgName>
+                        <desc>Editore della cartolina</desc>
+                    </org>
+                   
+                </listOrg>
+                
+                
+            </sourceDesc>
+        </fileDesc>
+        
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#GIO"/>
+                    <placeName ref="#MO">Modena</placeName>
+                    <!-- DATA data di invio da timbro (postage) o da manoscritto (writing) -->
+            
+                    <date type="writing" when="1918-01-17">17/01/1918</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#OT">Oliva Turtura</persName>
+                    <placeName> <note>Assente, si presume che la cartolina sia stata consegnata a mano</note></placeName>
+                </correspAction>
+              
+            </correspDesc>
+            
+            <textClass>
+                <keywords>
+                    <!-- soggettario -->
+                    <!-- tipologia -->
+                    <!-- descrizione -->
+                    <term>Cartolina </term>
+                    <term>Cartolina Artistica </term>
+                    <term>Rappresentazione del quadro "Madonna del pozzo" di Franciabigio</term>
+                </keywords>
+            </textClass>
+            
+            <langUsage>
+                <language ident="it-IT">italiano</language>
+            </langUsage>
+        </profileDesc>
+        
+    </teiHeader>
+
+    <facsimile>
+
+        <surface n="f" corresp="#fronte194">    <!-- Fronte -->
+            <graphic url='img/7694-194F.jpg' width='519px' height='822px' xml:id="fronteII" />
+           
+        </surface>
+
+        <surface n="r" corresp="#retro194">     <!-- Retro -->
+            <graphic url='img/7694-194R.jpg' width='825px' height='526px' xml:id="retroII" />
+         
+            <!--Data-->
+            <zone points = ' 684,6, 685,73, 269,72, 298,15, 382,4 '   n="1" />
+            <!--Saluto iniziale-->
+            <zone points = ' 250,79, 113,80, 88,66, 17,66, 17,21, 250,22 ' n="2"  />
+            <!--Messaggio-->
+            <zone points = ' 13,70, 73,67, 233,80, 824,79, 824,477, 462,477, 450,450, 421,449, 411,465, 20,461, 34,427, 35,121, 5,92 '    n="3" />
+            <!--Firma-->
+            <zone points = ' 34,512, 44,494, 79,474, 95,473, 164,472, 197,490, 265,495, 290,474, 376,474, 411,497, 430,498, 453,483, 516,482, 554,483, 712,483, 726,497, 615,498, 611,507, 614,516, 729,517, 724,526, 569,525, 274,525, 135,526, 135,526 '  n="4" />
+            <!--Scritta in verticale-->
+            <zone points = ' 33,418, 15,421, 13,243, 16,124, 34,124 '   n="5"/>
+            <!--Scritta in orizzontale-->
+            <zone points = ' 372,512, 14,512, 14,469, 190,469, 342,473 '  n="6"/>
+            <!--Simbolo-->
+            <zone points = ' 451,504, 421,507, 413,469, 424,452, 450,452 ' n="7" />
+            <!--Scritta in orizzontale2-->
+            <zone points = ' 727,515, 613,514, 612,498, 665,493, 727,501 '  n="8" />
+           
+        </surface>
+    </facsimile>
+
+
+
+
+
+
+
+
+
+
+    <!-- DEFINIZIONE -->
+    <text type="cartolina" xml:id="xx">
+        <front>
+            <div type="stampe">
+                <ab xml:id="scritta_r1"><s facs="#c172_r5" xml:id="scritta1" style="text-orientation: sideways-left" >Copyright - E. SBORGI - FLORENCE </s></ab>
+                <ab xml:id="scritta_r2">
+                    <s facs="#c172_r6" xml:id="scritta2" >
+                        <lb xml:id="retro_lb1"/>
+                        Madonna del pozzo
+                        <lb xml:id="retro_lb2"/>
+                        Franciabigio. <cb xml:id="retro_cb1"/> Firenze. 
+                    </s> 
+                </ab>
+                <ab xml:id="scritta_r3"><s facs="#c172_r7" xml:id="scritta3">444<note> Il simbolo non è chiaro, probabilmente si riferisce all'editore della cartolina</note></s></ab>  
+                <ab xml:id="scritta_r4"><s facs="#c172_r8" xml:id="scritta4">Printed in Italy</s></ab>   
+                
+                 
+                    
+              
+            </div>
+
+            
+        </front>
+
+        <!-- TRASCRIZIONE -->
+        <body>
+            <div type="fronte" xml:id="fronte194">
+                <figure>
+                    <figDesc>In primo piano si nota la Madonna con in grembo Gesù bambino, di fronte San Giovannino porge loro un messaggio. La scena si svolge in un paesaggio di campagna con delle rovine. Si può osservare anche un pozzo con delle persone nelle vicinanze</figDesc>
+                    <head>Madonna del pozzo di Franciabigio </head>
+                </figure>
+
+              
+            </div>
+            
+            <div type="retro" xml:id="retro194">
+                <div type="opener">
+                    <ab type="parag" facs="#c194_r1">
+                        <placeName ref="#MO">Modena</placeName>, lì
+                        <date xml:id="data" when="1918-01-17">17/1 .1918.</date>
+                    </ab>
+                    <salute facs="#c194_r2">Oliva mia,</salute>
+                </div>
+                <div type="letter-body">
+                    <ab type="parag" n="par1" facs="#c194_r3">
+                        <lb xml:id="retro_lb3"/>
+                        Non credere troppo vicino il giorno della udizione delle
+                        <lb xml:id="retro_lb4"/>
+                        visite, poi non c'è da disperarsi, ho ferma fiducia che
+                        <lb xml:id="retro_lb5"/>
+                        tutto andrà bene. Sai che ti voglio tanto tanto bene
+                        <lb xml:id="retro_lb6"/>
+                        e non desidero che il tuo purissimo amore, quindi
+                        <lb xml:id="retro_lb7"/>
+                        come potrei recarti del dolore? Oliva, Oliva mia
+                        <lb xml:id="retro_lb8"/>
+                        il tuo Giovannino t'ama mille volte più di
+                        <lb xml:id="retro_lb9"/>
+                        se stesso, con ardente passione, con tutte le energie
+                        <lb xml:id="retro_lb10"/>
+                        dell'animo, con un folle trasporto di infinita
+                        <lb xml:id="retro_lb11"/>
+                        dolcezza, di tranquilla serenità che sommerge
+                        <lb xml:id="retro_lb12"/>
+                        in un baratro nero nero ogni altro mio desiderio
+                    </ab>
+                </div>
+                <div type="closer">
+                    <lb xml:id="retro_lb13" facs="#c194_r4"/>
+                    <signed>Un bacio affettuoso tuo <persName ref="#GIO"> <addName type="epithet">Giovannino</addName></persName></signed>
+                </div>
+
+
+             
+            </div>
+        </body>
+        <back>
+            <div type="note">
+                <p>Non si hanno informazioni sul mittente della cartolina,<persName ref="#GIO">Giovanni</persName>.</p>
+            </div>
+        </back> 
+    </text>
+</TEI>
